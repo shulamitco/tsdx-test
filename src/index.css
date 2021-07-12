@@ -1,0 +1,45 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.value {
+  font-weight: bolder;
+  font-size: 150%;
+  line-height: 90%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: medium;
+}
+.progressbar {
+  width: 80%;
+}
+.classColorYellow .CircularProgressbar-path {
+  stroke: #ff9500 !important;
+}
+.classColorGreen .CircularProgressbar-path {
+  stroke: #27ae60 !important;
+}
+.classColorRed .CircularProgressbar-path {
+  stroke: #ae3b27 !important;
+}
+.borderRing .CircularProgressbar-path {
+  stroke: white !important; /*borderColor*/
+}
+/* .CircularProgressbar-trail {
+  stroke: #2a2c30 !important; /* background ring 
+  transform: 'rotate(0.25turn)' !important;
+} */
